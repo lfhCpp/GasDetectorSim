@@ -1,4 +1,4 @@
-# MusicGeant4GarfieldInterface
+# Multi-Software Coupling Suite
 
 **Author:** Lufenhua  
 **Language:** C++  
@@ -83,14 +83,6 @@ In `GarfieldPhysics::InitializePhysics()` (file `GarfieldPhysics.cc`), the follo
 | `#define plot` | (Single‑event debugging) Plot electric field, potential, and readout signals; also output signal data to a text file. |
 | `#define CoutMessageToDebug` | Print additional simulation‑process messages for debugging. |
 
----
-
-## 📊 Analysis
-
-After the simulation completes, move the generated `Garfield.root` file from the build directory to the `Analyse` folder, then run:
-
-bash
-root ReadEent.C
 
 
 ---
